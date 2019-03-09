@@ -2,6 +2,7 @@ import * as React from 'react';
 import ButtonSample from './ButtonSample';
 import ContainerSample from './ContainerSample';
 import FlexSample from './FlexSample';
+import HeadingSample from './HeadingSample';
 
 const Components = () => {
   return (
@@ -9,6 +10,7 @@ const Components = () => {
       <ButtonSample />
       <ContainerSample />
       <FlexSample />
+      <HeadingSample />
     </div>
   )
 }
