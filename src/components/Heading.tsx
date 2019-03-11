@@ -10,6 +10,7 @@ export interface Props {
   center?: boolean,
   right?: boolean,
   children: any,
+  style?: any,
 }
 
 const baseStyle = css`

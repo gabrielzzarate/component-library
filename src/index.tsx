@@ -8,11 +8,6 @@ const theme = {
   primaryColorInverted: "#3A3A3A"
 };
 
-const Heading = styled.h1`
-  margin-bottom: 30px;
-  color: ${props => props.theme.primaryColor};
-`;
-
 createGlobalStyle`
   html {
     box-sizing: border-box;
