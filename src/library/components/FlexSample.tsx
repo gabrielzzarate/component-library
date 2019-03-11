@@ -5,7 +5,7 @@ import Flex, { Column } from '../../components/Flex';
 const FlexSample = () => {
   return (
     <div>
-      <Container style={{ backgroundColor: '#F5B700' }}>
+      <Container style={{ backgroundColor: '#EB6E00' }}>
           <Container small full style={{ backgroundColor: '#fff'}}>
             <Flex justifyAround>
               <div
@@ -13,7 +13,7 @@ const FlexSample = () => {
                   height: 100,
                   width: 100,
                   borderRadius: 50,
-                  backgroundColor: '#F9D773',
+                backgroundColor: '#EB6E00',
                 }}
               />
               <div
@@ -21,7 +21,7 @@ const FlexSample = () => {
                   height: 100,
                   width: 100,
                   borderRadius: 50,
-                  backgroundColor: '#F9D773',
+                backgroundColor: '#EB6E00',
                 }}
               />
               <div
@@ -29,7 +29,7 @@ const FlexSample = () => {
                   height: 100,
                   width: 100,
                   borderRadius: 50,
-                  backgroundColor: '#F9D773',
+                backgroundColor: '#EB6E00',
                 }}
               />
             </Flex>
