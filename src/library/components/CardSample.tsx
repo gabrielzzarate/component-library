@@ -24,9 +24,9 @@ const CardSample = () => {
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus.
               </p>
             </Card>
-            <Card primary delay={1500}>
+            <Card primary>
               <Heading h3 style={{ color: '#fff'}}>
-                Primary Delayed Card
+                Primary Card
               </Heading>
               <p>
                 Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi
