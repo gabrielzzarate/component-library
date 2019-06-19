@@ -62,7 +62,9 @@ class Card extends React.Component<Props, State> {
         big={big}
         noMargin={noMargin}
         {...props}
-      />
+      >
+        {this.props.children}
+      </StyledCard>
     )
   }
 }
